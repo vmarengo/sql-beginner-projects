@@ -27,8 +27,9 @@ INSERT INTO SagePaws VALUES (14, "chichilla", 6, "Animal", 20);
 
 INSERT INTO SagePaws VALUES (15, "bird", 6, "Animal", 50);
 
-INSERT INTO SagePaws VALUES (16, "tiger", 7, "Exotic Animal", 1000000);
+INSERT INTO SagePaws VALUES (16, "tiger", 1000000, "Exotic Animal", 7);
 
 SELECT * FROM SagePaws ORDER BY cost;
 
 SELECT MAX(cost) FROM SagePaws;
+
